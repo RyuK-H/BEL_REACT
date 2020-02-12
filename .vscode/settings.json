@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": true,
+  "prettier.printWidth": 120,
+  "[scss]": {
+    "editor.formatOnSave": false
+  }
+}
