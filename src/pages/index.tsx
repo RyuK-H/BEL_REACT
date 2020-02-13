@@ -1,3 +1,3 @@
-import { ExchangePage } from "./ExchangePage";
+import { TestPage } from "./TestPage";
 
-export { ExchangePage };
+export { TestPage };
