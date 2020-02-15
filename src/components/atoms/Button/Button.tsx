@@ -1,26 +1,24 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import classNames from 'classnames';
 
-import { IComponentProps } from "../../../types";
-import "./Button.scss";
+import { IComponentProps } from '../../../types';
+import './Button.scss';
 
 interface IButtonProps extends IComponentProps {
-  className: string;
-  _background_color?: string;
+	className?: string;
+	gray?: boolean;
+	red?: boolean;
 }
 
-const StyledButton = ({ className, ...props }: IButtonProps) => (
-  <button className={className}>{props.children}</button>
-);
-
-const CustomStyledButton = styled(StyledButton)`
-  background-color: ${props => props._background_color} !important;
-`;
-
 export const Button = (props: IButtonProps) => {
-  return (
-    <CustomStyledButton className={props.className} _background_color={props._background_color}>
-      {props.children}
-    </CustomStyledButton>
-  );
+	return (
+		<button
+			className={classNames('Button', props.className, {
+				'Button--gray': props.gray,
+				'Button--red': props.red,
+			})}
+		>
+			{props.children}
+		</button>
+	);
 };
