@@ -1,8 +1,0 @@
-{
-	"editor.formatOnSave": true,
-	"prettier.printWidth": 100,
-	"[scss]": {
-		"editor.formatOnSave": false
-	},
-	"jira-plugin.workingProject": ""
-}
