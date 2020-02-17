@@ -2,7 +2,7 @@ import React from "react";
 import styled, { css } from "styled-components";
 
 import { IComponentProps } from './types';
-import { Button, View } from "react-native";
+import { Button, Text } from "react-native";
 
 interface IButtonProps extends IComponentProps {
 	className?: string;
@@ -32,7 +32,9 @@ const StyledButton = styled.View`
   line-height: 48px;
   text-align: center;
   margin: 20px;
-
+  justify-content: center;
+  align-items: center;
+  
   &:disabled {
     cursor: not-allowed;
     background-color: #E4E7F0 !important;
@@ -75,10 +77,16 @@ const StyledButton = styled.View`
   `};
 `;
 
+const StyledText = styled.Text`
+  color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+`;
+
 export const SCButton = (props: IButtonProps) => {
   return (
     <StyledButton gray={props.gray} red={props.red}>
-      <Button title="RN Styled-Components" onPress={() => {}} />
+      <StyledText>RN Styled-Components</StyledText>
     </StyledButton>
   );
 };

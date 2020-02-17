@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="044cf8f5-5036-462f-936a-75d9fa876eb9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Button.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colors.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../React/src/components/atoms/Button/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../React/src/components/atoms/Button/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../React/src/pages/TestPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../React/src/pages/TestPage.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="044cf8f5-5036-462f-936a-75d9fa876eb9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
