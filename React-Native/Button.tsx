@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button } from 'react-native';
-import classNames from 'classnames';
 
 import { IComponentProps } from './types';
 
@@ -11,5 +10,6 @@ interface IButtonProps extends IComponentProps {
 }
 
 export const ZButton = (props: IButtonProps) => {
-	return <Button></Button>;
+	return <Button title="Save" onPress={() => {}}></Button>
+;
 };
